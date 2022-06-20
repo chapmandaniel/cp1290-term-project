@@ -1,0 +1,237 @@
+
+body{
+    background-color: #232323;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.page-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+
+
+#header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 8px;
+}
+
+
+.border-divider{
+    border-right: #232323 solid 8px;
+    border-left: #232323 solid 8px;
+}
+
+
+.player-info{
+    width: 100%;
+}
+
+.player-side{
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+#leg-counter-div{
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    background-color: #2e2e2e;
+    color: #f2f2f2;
+    font-size: 30px;
+    height: 178px;
+
+}
+
+.center {
+    width: 600px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.player-name{
+    background-color: darkgray;
+    width: 100%;
+    padding: 5px;
+    color: #2e2e2e;
+    font-size: 32px;
+}
+
+.player-score{
+    color: #fff;
+    font-size: 64px;
+    font-weight: bold;
+    background-color: dimgray;
+}
+
+
+
+#numpad{
+    width: 100%;
+    height: 100%;
+    background-color: #343434;
+    padding: 50px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px -1px, rgba(0, 0, 0, 0.1) 0px 1px 3px -1px;
+}
+
+.numpad{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.number-btn{
+    background-color: #565656;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    font-size: 42px;
+    font-weight: bold;
+    color: lightgray;
+    width: 150px;
+    height: 80px;
+    text-align: center;
+}
+
+ .number-btn:hover{
+     background-color: #787878;
+     color: #000;
+ }
+
+ .green {
+     background-color: darkolivegreen;
+        color: #fff;
+ }
+
+ #leg-counter{
+     height: 90px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+ }
+
+ #turn-score{
+     font-size: 46px;
+     height: 150px;
+ }
+
+ .player-avg{
+     width: 100%;
+     font-size: 22px;
+     background-color: #545454;
+     color: grey;
+     padding-bottom: 8px;
+ }
+
+ .registration{
+     background-color: #2e2e2e;
+     min-height: 400px;
+     width: 600px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-bottom: 8px;
+     color: #dedede;
+     font-size: 24px;
+     text-align: center;
+     padding: 40px;
+ }
+
+input[type=text] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 22px;
+    background-color: #3e3e3e;
+    border: 0px;
+    color: lightgrey;
+    text-align: center;
+}
+
+button{
+    background-color: #565656;
+    color: #f1f1f1;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    width: 250px;
+    font-size: 22px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.hidden{
+    display: none;
+}
+
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #323232;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    width: 80%; /* Could be more or less, depending on screen size */
+    color: #f2f2f2;
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-message{
+    font-size: 36px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.final-score{
+    font-size: 64px;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #3e3e3e;
+    color: #f2f2f2;
+}
