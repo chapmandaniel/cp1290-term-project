@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function() {
         raceTo = raceTo === "" ? 8 : raceTo;
         let playerOne = new Player(p1name);
         let playerTwo = new Player(p2name);
-        match = new Match(101, playerOne, playerTwo, raceTo);
+        match = new Match(501, playerOne, playerTwo, raceTo);
         match.startMatch();
 
     });
